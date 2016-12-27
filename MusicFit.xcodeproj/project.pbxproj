@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84152BE51E12217800F4DB49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84152BE41E12217800F4DB49 /* main.m */; };
+		84152BE81E12217800F4DB49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84152BE71E12217800F4DB49 /* AppDelegate.m */; };
+		84152BEB1E12217800F4DB49 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84152BEA1E12217800F4DB49 /* FirstViewController.m */; };
+		84152BEE1E12217800F4DB49 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84152BED1E12217800F4DB49 /* SecondViewController.m */; };
+		84152BF11E12217800F4DB49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84152BEF1E12217800F4DB49 /* Main.storyboard */; };
+		84152BF31E12217900F4DB49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84152BF21E12217900F4DB49 /* Assets.xcassets */; };
+		84152BF61E12217900F4DB49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84152BF41E12217900F4DB49 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84152BE01E12217800F4DB49 /* MusicFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84152BE41E12217800F4DB49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84152BE61E12217800F4DB49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84152BE71E12217800F4DB49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84152BE91E12217800F4DB49 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		84152BEA1E12217800F4DB49 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		84152BEC1E12217800F4DB49 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		84152BED1E12217800F4DB49 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		84152BF01E12217800F4DB49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84152BF21E12217900F4DB49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84152BF51E12217900F4DB49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84152BF71E12217900F4DB49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84152BDD1E12217800F4DB49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84152BD71E12217700F4DB49 = {
+			isa = PBXGroup;
+			children = (
+				84152BE21E12217800F4DB49 /* MusicFit */,
+				84152BE11E12217800F4DB49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84152BE11E12217800F4DB49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84152BE01E12217800F4DB49 /* MusicFit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84152BE21E12217800F4DB49 /* MusicFit */ = {
+			isa = PBXGroup;
+			children = (
+				84152BE61E12217800F4DB49 /* AppDelegate.h */,
+				84152BE71E12217800F4DB49 /* AppDelegate.m */,
+				84152BE91E12217800F4DB49 /* FirstViewController.h */,
+				84152BEA1E12217800F4DB49 /* FirstViewController.m */,
+				84152BEC1E12217800F4DB49 /* SecondViewController.h */,
+				84152BED1E12217800F4DB49 /* SecondViewController.m */,
+				84152BEF1E12217800F4DB49 /* Main.storyboard */,
+				84152BF21E12217900F4DB49 /* Assets.xcassets */,
+				84152BF41E12217900F4DB49 /* LaunchScreen.storyboard */,
+				84152BF71E12217900F4DB49 /* Info.plist */,
+				84152BE31E12217800F4DB49 /* Supporting Files */,
+			);
+			path = MusicFit;
+			sourceTree = "<group>";
+		};
+		84152BE31E12217800F4DB49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84152BE41E12217800F4DB49 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84152BDF1E12217800F4DB49 /* MusicFit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84152BFA1E12217900F4DB49 /* Build configuration list for PBXNativeTarget "MusicFit" */;
+			buildPhases = (
+				84152BDC1E12217800F4DB49 /* Sources */,
+				84152BDD1E12217800F4DB49 /* Frameworks */,
+				84152BDE1E12217800F4DB49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicFit;
+			productName = MusicFit;
+			productReference = 84152BE01E12217800F4DB49 /* MusicFit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84152BD81E12217700F4DB49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = vohulg;
+				TargetAttributes = {
+					84152BDF1E12217800F4DB49 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = YR5YE7745P;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 84152BDB1E12217700F4DB49 /* Build configuration list for PBXProject "MusicFit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84152BD71E12217700F4DB49;
+			productRefGroup = 84152BE11E12217800F4DB49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84152BDF1E12217800F4DB49 /* MusicFit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84152BDE1E12217800F4DB49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84152BF61E12217900F4DB49 /* LaunchScreen.storyboard in Resources */,
+				84152BF31E12217900F4DB49 /* Assets.xcassets in Resources */,
+				84152BF11E12217800F4DB49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84152BDC1E12217800F4DB49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84152BEE1E12217800F4DB49 /* SecondViewController.m in Sources */,
+				84152BE81E12217800F4DB49 /* AppDelegate.m in Sources */,
+				84152BEB1E12217800F4DB49 /* FirstViewController.m in Sources */,
+				84152BE51E12217800F4DB49 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84152BEF1E12217800F4DB49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84152BF01E12217800F4DB49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84152BF41E12217900F4DB49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84152BF51E12217900F4DB49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84152BF81E12217900F4DB49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84152BF91E12217900F4DB49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84152BFB1E12217900F4DB49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YR5YE7745P;
+				INFOPLIST_FILE = MusicFit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vohulg.MusicFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84152BFC1E12217900F4DB49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YR5YE7745P;
+				INFOPLIST_FILE = MusicFit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vohulg.MusicFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84152BDB1E12217700F4DB49 /* Build configuration list for PBXProject "MusicFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84152BF81E12217900F4DB49 /* Debug */,
+				84152BF91E12217900F4DB49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84152BFA1E12217900F4DB49 /* Build configuration list for PBXNativeTarget "MusicFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84152BFB1E12217900F4DB49 /* Debug */,
+				84152BFC1E12217900F4DB49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84152BD81E12217700F4DB49 /* Project object */;
+}
