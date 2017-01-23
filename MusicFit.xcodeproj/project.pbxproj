@@ -7,28 +7,79 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840FE3C01E28ADCE006D7E43 /* VGSongsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840FE3BF1E28ADCD006D7E43 /* VGSongsViewController.m */; };
 		84152BE51E12217800F4DB49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84152BE41E12217800F4DB49 /* main.m */; };
 		84152BE81E12217800F4DB49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84152BE71E12217800F4DB49 /* AppDelegate.m */; };
-		84152BEB1E12217800F4DB49 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84152BEA1E12217800F4DB49 /* FirstViewController.m */; };
-		84152BEE1E12217800F4DB49 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84152BED1E12217800F4DB49 /* SecondViewController.m */; };
 		84152BF11E12217800F4DB49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84152BEF1E12217800F4DB49 /* Main.storyboard */; };
 		84152BF31E12217900F4DB49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84152BF21E12217900F4DB49 /* Assets.xcassets */; };
 		84152BF61E12217900F4DB49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84152BF41E12217900F4DB49 /* LaunchScreen.storyboard */; };
+		84152C6C1E13EA9A00F4DB49 /* VGChooseLessonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84152C6B1E13EA9A00F4DB49 /* VGChooseLessonViewController.m */; };
+		843ED7B11E2DF5D500709799 /* VGAudioPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843ED7B01E2DF5D500709799 /* VGAudioPlayViewController.m */; };
+		843ED7B41E2E3B7D00709799 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843ED7B31E2E3B7D00709799 /* AVFoundation.framework */; };
+		844EF3B91E14D9B300B321BD /* VGDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 844EF3B61E14D9B300B321BD /* VGDataHelper.m */; };
+		844EF3BA1E14D9B300B321BD /* VGCoreDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844EF3B81E14D9B300B321BD /* VGCoreDataViewController.m */; };
+		847594E31E31C31F009D4194 /* KZPMathUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 847594D11E31C31F009D4194 /* KZPMathUtilities.m */; };
+		847594E41E31C31F009D4194 /* KZPMusicSciNotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 847594D31E31C31F009D4194 /* KZPMusicSciNotation.m */; };
+		847594E51E31C31F009D4194 /* NSArray+functions.m in Sources */ = {isa = PBXBuildFile; fileRef = 847594D51E31C31F009D4194 /* NSArray+functions.m */; };
+		847594E61E31C31F009D4194 /* NSDictionary+PList.m in Sources */ = {isa = PBXBuildFile; fileRef = 847594D71E31C31F009D4194 /* NSDictionary+PList.m */; };
+		847594E71E31C31F009D4194 /* NSMutableArray+functions.m in Sources */ = {isa = PBXBuildFile; fileRef = 847594D91E31C31F009D4194 /* NSMutableArray+functions.m */; };
+		847594E81E31C31F009D4194 /* NSMutableSet+functions.m in Sources */ = {isa = PBXBuildFile; fileRef = 847594DB1E31C31F009D4194 /* NSMutableSet+functions.m */; };
+		847594E91E31C31F009D4194 /* NSString+functions.m in Sources */ = {isa = PBXBuildFile; fileRef = 847594DD1E31C31F009D4194 /* NSString+functions.m */; };
+		847594EA1E31C31F009D4194 /* KZPMusicKeyboardTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = 847594DF1E31C31F009D4194 /* KZPMusicKeyboardTranslator.m */; };
+		847594EB1E31C31F009D4194 /* MusicNotation.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 847594E21E31C31F009D4194 /* MusicNotation.bundle */; };
+		847594EE1E31C337009D4194 /* KZPMusicNotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847594EC1E31C337009D4194 /* KZPMusicNotationView.m */; };
+		847594EF1E31C337009D4194 /* VGNoteAnswerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847594ED1E31C337009D4194 /* VGNoteAnswerViewController.m */; };
+		8475952F1E33B6A9009D4194 /* MusicBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8475952E1E33B6A9009D4194 /* MusicBundle.bundle */; };
+		847595321E33B70B009D4194 /* VGMusicNotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847595311E33B70B009D4194 /* VGMusicNotationView.m */; };
+		84EDE4C61E150F660001C6D2 /* musicFitModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84EDE4C41E150F660001C6D2 /* musicFitModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		840FE3961E278DBF006D7E43 /* VGConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VGConstants.h; sourceTree = "<group>"; };
+		840FE3BE1E28ADCD006D7E43 /* VGSongsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGSongsViewController.h; sourceTree = "<group>"; };
+		840FE3BF1E28ADCD006D7E43 /* VGSongsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGSongsViewController.m; sourceTree = "<group>"; };
 		84152BE01E12217800F4DB49 /* MusicFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84152BE41E12217800F4DB49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84152BE61E12217800F4DB49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84152BE71E12217800F4DB49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84152BE91E12217800F4DB49 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		84152BEA1E12217800F4DB49 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		84152BEC1E12217800F4DB49 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		84152BED1E12217800F4DB49 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		84152BF01E12217800F4DB49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84152BF21E12217900F4DB49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84152BF51E12217900F4DB49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84152BF71E12217900F4DB49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84152C6A1E13EA9A00F4DB49 /* VGChooseLessonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGChooseLessonViewController.h; sourceTree = "<group>"; };
+		84152C6B1E13EA9A00F4DB49 /* VGChooseLessonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGChooseLessonViewController.m; sourceTree = "<group>"; };
+		843ED7AF1E2DF5D500709799 /* VGAudioPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGAudioPlayViewController.h; sourceTree = "<group>"; };
+		843ED7B01E2DF5D500709799 /* VGAudioPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGAudioPlayViewController.m; sourceTree = "<group>"; };
+		843ED7B31E2E3B7D00709799 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		844EF3B51E14D9B300B321BD /* VGDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGDataHelper.h; sourceTree = "<group>"; };
+		844EF3B61E14D9B300B321BD /* VGDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGDataHelper.m; sourceTree = "<group>"; };
+		844EF3B71E14D9B300B321BD /* VGCoreDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGCoreDataViewController.h; sourceTree = "<group>"; };
+		844EF3B81E14D9B300B321BD /* VGCoreDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGCoreDataViewController.m; sourceTree = "<group>"; };
+		847594D01E31C31F009D4194 /* KZPMathUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZPMathUtilities.h; sourceTree = "<group>"; };
+		847594D11E31C31F009D4194 /* KZPMathUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZPMathUtilities.m; sourceTree = "<group>"; };
+		847594D21E31C31F009D4194 /* KZPMusicSciNotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZPMusicSciNotation.h; sourceTree = "<group>"; };
+		847594D31E31C31F009D4194 /* KZPMusicSciNotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZPMusicSciNotation.m; sourceTree = "<group>"; };
+		847594D41E31C31F009D4194 /* NSArray+functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+functions.h"; sourceTree = "<group>"; };
+		847594D51E31C31F009D4194 /* NSArray+functions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+functions.m"; sourceTree = "<group>"; };
+		847594D61E31C31F009D4194 /* NSDictionary+PList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+PList.h"; sourceTree = "<group>"; };
+		847594D71E31C31F009D4194 /* NSDictionary+PList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+PList.m"; sourceTree = "<group>"; };
+		847594D81E31C31F009D4194 /* NSMutableArray+functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+functions.h"; sourceTree = "<group>"; };
+		847594D91E31C31F009D4194 /* NSMutableArray+functions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+functions.m"; sourceTree = "<group>"; };
+		847594DA1E31C31F009D4194 /* NSMutableSet+functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableSet+functions.h"; sourceTree = "<group>"; };
+		847594DB1E31C31F009D4194 /* NSMutableSet+functions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableSet+functions.m"; sourceTree = "<group>"; };
+		847594DC1E31C31F009D4194 /* NSString+functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+functions.h"; sourceTree = "<group>"; };
+		847594DD1E31C31F009D4194 /* NSString+functions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+functions.m"; sourceTree = "<group>"; };
+		847594DE1E31C31F009D4194 /* KZPMusicKeyboardTranslator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZPMusicKeyboardTranslator.h; sourceTree = "<group>"; };
+		847594DF1E31C31F009D4194 /* KZPMusicKeyboardTranslator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZPMusicKeyboardTranslator.m; sourceTree = "<group>"; };
+		847594E01E31C31F009D4194 /* KZPMusicNotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZPMusicNotationView.h; sourceTree = "<group>"; };
+		847594E11E31C31F009D4194 /* VGNoteAnswerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGNoteAnswerViewController.h; sourceTree = "<group>"; };
+		847594E21E31C31F009D4194 /* MusicNotation.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MusicNotation.bundle; sourceTree = "<group>"; };
+		847594EC1E31C337009D4194 /* KZPMusicNotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZPMusicNotationView.m; sourceTree = "<group>"; };
+		847594ED1E31C337009D4194 /* VGNoteAnswerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGNoteAnswerViewController.m; sourceTree = "<group>"; };
+		8475952E1E33B6A9009D4194 /* MusicBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MusicBundle.bundle; sourceTree = "<group>"; };
+		847595301E33B70B009D4194 /* VGMusicNotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGMusicNotationView.h; sourceTree = "<group>"; };
+		847595311E33B70B009D4194 /* VGMusicNotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGMusicNotationView.m; sourceTree = "<group>"; };
+		84EDE4C51E150F660001C6D2 /* musicFitModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = musicFitModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843ED7B41E2E3B7D00709799 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +99,7 @@
 			children = (
 				84152BE21E12217800F4DB49 /* MusicFit */,
 				84152BE11E12217800F4DB49 /* Products */,
+				843ED7B21E2E3B7D00709799 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,16 +114,27 @@
 		84152BE21E12217800F4DB49 /* MusicFit */ = {
 			isa = PBXGroup;
 			children = (
+				847594CF1E31C2C5009D4194 /* MusicNotation */,
+				844EF3B51E14D9B300B321BD /* VGDataHelper.h */,
+				844EF3B61E14D9B300B321BD /* VGDataHelper.m */,
+				844EF3B71E14D9B300B321BD /* VGCoreDataViewController.h */,
+				844EF3B81E14D9B300B321BD /* VGCoreDataViewController.m */,
+				840FE3BE1E28ADCD006D7E43 /* VGSongsViewController.h */,
+				840FE3BF1E28ADCD006D7E43 /* VGSongsViewController.m */,
 				84152BE61E12217800F4DB49 /* AppDelegate.h */,
 				84152BE71E12217800F4DB49 /* AppDelegate.m */,
-				84152BE91E12217800F4DB49 /* FirstViewController.h */,
-				84152BEA1E12217800F4DB49 /* FirstViewController.m */,
-				84152BEC1E12217800F4DB49 /* SecondViewController.h */,
-				84152BED1E12217800F4DB49 /* SecondViewController.m */,
+				84152C6A1E13EA9A00F4DB49 /* VGChooseLessonViewController.h */,
+				84152C6B1E13EA9A00F4DB49 /* VGChooseLessonViewController.m */,
+				843ED7AF1E2DF5D500709799 /* VGAudioPlayViewController.h */,
+				843ED7B01E2DF5D500709799 /* VGAudioPlayViewController.m */,
+				840FE3961E278DBF006D7E43 /* VGConstants.h */,
+				847594ED1E31C337009D4194 /* VGNoteAnswerViewController.m */,
+				847594E11E31C31F009D4194 /* VGNoteAnswerViewController.h */,
 				84152BEF1E12217800F4DB49 /* Main.storyboard */,
 				84152BF21E12217900F4DB49 /* Assets.xcassets */,
 				84152BF41E12217900F4DB49 /* LaunchScreen.storyboard */,
 				84152BF71E12217900F4DB49 /* Info.plist */,
+				84EDE4C41E150F660001C6D2 /* musicFitModel.xcdatamodeld */,
 				84152BE31E12217800F4DB49 /* Supporting Files */,
 			);
 			path = MusicFit;
@@ -82,6 +146,43 @@
 				84152BE41E12217800F4DB49 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		843ED7B21E2E3B7D00709799 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				843ED7B31E2E3B7D00709799 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		847594CF1E31C2C5009D4194 /* MusicNotation */ = {
+			isa = PBXGroup;
+			children = (
+				847594D01E31C31F009D4194 /* KZPMathUtilities.h */,
+				847594D11E31C31F009D4194 /* KZPMathUtilities.m */,
+				847594D21E31C31F009D4194 /* KZPMusicSciNotation.h */,
+				847594D31E31C31F009D4194 /* KZPMusicSciNotation.m */,
+				847594D41E31C31F009D4194 /* NSArray+functions.h */,
+				847594D51E31C31F009D4194 /* NSArray+functions.m */,
+				847594D61E31C31F009D4194 /* NSDictionary+PList.h */,
+				847594D71E31C31F009D4194 /* NSDictionary+PList.m */,
+				847594D81E31C31F009D4194 /* NSMutableArray+functions.h */,
+				847594D91E31C31F009D4194 /* NSMutableArray+functions.m */,
+				847594DA1E31C31F009D4194 /* NSMutableSet+functions.h */,
+				847594DB1E31C31F009D4194 /* NSMutableSet+functions.m */,
+				847594DC1E31C31F009D4194 /* NSString+functions.h */,
+				847594DD1E31C31F009D4194 /* NSString+functions.m */,
+				847594DE1E31C31F009D4194 /* KZPMusicKeyboardTranslator.h */,
+				847594DF1E31C31F009D4194 /* KZPMusicKeyboardTranslator.m */,
+				847594E01E31C31F009D4194 /* KZPMusicNotationView.h */,
+				847594EC1E31C337009D4194 /* KZPMusicNotationView.m */,
+				847595301E33B70B009D4194 /* VGMusicNotationView.h */,
+				847595311E33B70B009D4194 /* VGMusicNotationView.m */,
+				847594E21E31C31F009D4194 /* MusicNotation.bundle */,
+				8475952E1E33B6A9009D4194 /* MusicBundle.bundle */,
+			);
+			name = MusicNotation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -116,6 +217,7 @@
 					84152BDF1E12217800F4DB49 = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = YR5YE7745P;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -144,6 +246,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				84152BF61E12217900F4DB49 /* LaunchScreen.storyboard in Resources */,
+				847594EB1E31C31F009D4194 /* MusicNotation.bundle in Resources */,
+				8475952F1E33B6A9009D4194 /* MusicBundle.bundle in Resources */,
 				84152BF31E12217900F4DB49 /* Assets.xcassets in Resources */,
 				84152BF11E12217800F4DB49 /* Main.storyboard in Resources */,
 			);
@@ -156,10 +260,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84152BEE1E12217800F4DB49 /* SecondViewController.m in Sources */,
+				840FE3C01E28ADCE006D7E43 /* VGSongsViewController.m in Sources */,
+				844EF3BA1E14D9B300B321BD /* VGCoreDataViewController.m in Sources */,
+				847594E31E31C31F009D4194 /* KZPMathUtilities.m in Sources */,
+				847594E51E31C31F009D4194 /* NSArray+functions.m in Sources */,
+				843ED7B11E2DF5D500709799 /* VGAudioPlayViewController.m in Sources */,
+				847594E71E31C31F009D4194 /* NSMutableArray+functions.m in Sources */,
+				847594E61E31C31F009D4194 /* NSDictionary+PList.m in Sources */,
 				84152BE81E12217800F4DB49 /* AppDelegate.m in Sources */,
-				84152BEB1E12217800F4DB49 /* FirstViewController.m in Sources */,
+				847594EA1E31C31F009D4194 /* KZPMusicKeyboardTranslator.m in Sources */,
+				847595321E33B70B009D4194 /* VGMusicNotationView.m in Sources */,
+				847594E41E31C31F009D4194 /* KZPMusicSciNotation.m in Sources */,
+				847594EE1E31C337009D4194 /* KZPMusicNotationView.m in Sources */,
+				84152C6C1E13EA9A00F4DB49 /* VGChooseLessonViewController.m in Sources */,
 				84152BE51E12217800F4DB49 /* main.m in Sources */,
+				847594E91E31C31F009D4194 /* NSString+functions.m in Sources */,
+				84EDE4C61E150F660001C6D2 /* musicFitModel.xcdatamodeld in Sources */,
+				847594E81E31C31F009D4194 /* NSMutableSet+functions.m in Sources */,
+				847594EF1E31C337009D4194 /* VGNoteAnswerViewController.m in Sources */,
+				844EF3B91E14D9B300B321BD /* VGDataHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +396,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = YR5YE7745P;
 				INFOPLIST_FILE = MusicFit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -289,9 +409,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = YR5YE7745P;
 				INFOPLIST_FILE = MusicFit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vohulg.MusicFit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -316,8 +438,22 @@
 				84152BFC1E12217900F4DB49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84EDE4C41E150F660001C6D2 /* musicFitModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84EDE4C51E150F660001C6D2 /* musicFitModel.xcdatamodel */,
+			);
+			currentVersion = 84EDE4C51E150F660001C6D2 /* musicFitModel.xcdatamodel */;
+			path = musicFitModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 84152BD81E12217700F4DB49 /* Project object */;
 }

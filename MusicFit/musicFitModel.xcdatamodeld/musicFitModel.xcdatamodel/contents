@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="15G1212" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="VGLesson" representedClassName="VGLesson" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="seq" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="lessonType" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="VGLessonType" inverseName="lessons" inverseEntity="VGLessonType" syncable="YES"/>
+        <relationship name="songs" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="VGSong" inverseName="lesson" inverseEntity="VGSong" syncable="YES"/>
+    </entity>
+    <entity name="VGLessonType" representedClassName="VGLessonType" syncable="YES" codeGenerationType="class">
+        <attribute name="lessonType" optional="YES" attributeType="Integer 16" minValueString="0" maxValueString="1" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="lessons" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="VGLesson" inverseName="lessonType" inverseEntity="VGLesson" syncable="YES"/>
+    </entity>
+    <entity name="VGSong" representedClassName="VGSong" syncable="YES" codeGenerationType="class">
+        <attribute name="nameSong" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="noteAnswer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pathToAudioFile" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tonality" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="lesson" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="VGLesson" inverseName="songs" inverseEntity="VGLesson" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="VGLesson" positionX="-54" positionY="-72" width="128" height="103"/>
+        <element name="VGLessonType" positionX="189" positionY="-63" width="128" height="73"/>
+        <element name="VGSong" positionX="-272" positionY="-97" width="128" height="118"/>
+    </elements>
+</model>

@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "VGDataHelper.h"
 
 @interface AppDelegate ()
 
@@ -14,9 +15,26 @@
 
 @implementation AppDelegate
 
+-(void) getLocale {
+    
+    NSLocale *locale;
+    locale = [NSLocale currentLocale];
+    
+    NSString * localLanguage = [locale objectForKey:NSLocaleIdentifier];
+    NSLog (@"Language : %@", localLanguage);
+    
+    NSDictionary* dicLanguage = [NSLocale componentsFromLocaleIdentifier:localLanguage];
+    
+    NSString* langCode = [dicLanguage objectForKey:NSLocaleLanguageCode];
+    
+    NSLog (@"langCode : %@", langCode);
+
+}
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+   
+    
     return YES;
 }
 
